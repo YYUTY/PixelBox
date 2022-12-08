@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 80px;
+  background-color: #606060;
+}
+header ul{
+  display: flex;
+  padding-left:0;
+  justify-content: flex-end;
+}
+
+header ul li{
+  list-style:none;
+  display: inline;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+header ul li a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header ul li p{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.login{
+  width: 100px;
+  margin:-10px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #87ceeb;
+}
+
+.login{
+  text-align: center;
+}
