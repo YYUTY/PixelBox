@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 header{
   height: 80px;
   background-color: #606060;
@@ -11,34 +12,60 @@ header ul{
   padding-left:0;
   justify-content: flex-end;
 }
-
 header ul li{
   list-style:none;
   display: inline;
   margin-top: 25px;
   margin-right: 20px;
 }
-
 header ul li a{
   color: #fff;
   font-size: 20px;
   text-decoration: none;
 }
-
 header ul li p{
   color: #fff;
   font-size: 20px;
   text-decoration: none;
 }
 
+footer{
+  height: 120px;
+  background-color: #202020;
+}
+footer ul{
+  display: flex;
+  padding-top: 30px;
+}
+footer ul li{
+  list-style: square;
+  margin-left: 20px;
+}
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+footer p{
+  color: #fff;
+  text-align:center;
+  padding-top: 30px;
+}
+
+.body{
+  height: 800px;
+  background: url(https://user-images.githubusercontent.com/100707322/206369500-c825ef42-de26-4153-84eb-a7876d604e65.jpg);
+  background-size: cover;
+}
+.body h1{
+  text-align:center;
+  color: #fff;
+  padding-top: 30px;
+}
 .login{
   width: 100px;
   margin:-10px;
   padding: 10px;
+  text-align: center;
   border-radius: 30px;
   background-color: #87ceeb;
-}
-
-.login{
-  text-align: center;
 }
